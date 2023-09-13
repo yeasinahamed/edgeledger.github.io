@@ -1,0 +1,40 @@
+/* Media Queries */
+
+.navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+}
+
+.navbar nav a {
+    padding: 10px 10px;
+}
+
+.info-container {
+    flex-direction: column;
+}
+
+.info-container .box {
+    padding-top: 30px;
+}
+
+.flex-columns .column {
+    flex: 100%;
+    width: 100%;
+}
+
+.team .flex-items {
+    flex-direction: column;
+}
+
+.team img {
+    width: 70%;
+}
+
+.flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+}
+ .flex-columns .column-1 {
+    min-width: 100%;
+ }
